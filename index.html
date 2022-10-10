@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="inputs">
+    <div class="box-properties">
+      <h2>box properlies</h2>
+      <div class="background-color">
+        <label for="color">background color</label>
+        <input type="color" name="color" id="color">
+      </div>
+      <div class="border-radius">
+        <label for="">border radius</label>
+      <input type="range" min="o" max="100" name="rage" id="border-radius">
+      </div>
+      <div class="height">
+        <label for="height"> height</label>
+        <input type="range"
+        min="0" max="500" name="height" id="height">
+      </div>
+      <div class="width">
+        <label for="width">width</label>
+        <input type="range"
+        min="0" max="500" name="width" id="width">
+        <div class="output"></div>
+      </div>
+      
+    </div>
+    <div class="square-container">
+      <div class="square"></div>
+    </div>
+    <div class="shadow">
+      <h2>customice shadow</h2>
+      <div class="horizontal">
+        <label for="horizontal"></label>
+        <input type="range" class="input-shadow" min="-100" max="100" value="0" name="horizontal" id="horizontal">
+      </div>
+      <div class="vertical">
+        <label for="vertical"></label>
+        <input type="range" class="input-shadow min="-100" max="100" value="0"  name="vertical" id="vertical">
+      </div>
+      <div class="blur">
+        <label for="blur"></label>
+        <input type="range" class="input-shadow min="0" max="100" value="0"  name="blur" id="blur">
+      </div>
+      <div class="spread">
+        <label for="spread"></label>
+        <input type="range" class="input-shadow min="-100" max="100" value="0"  name="spread" id="spread">
+      </div>
+      <div class="shadow-color">
+        <label for="shadow-color"></label>
+        <input type="color" class="input-shadow name="shadow-color" id="shadow-color">
+        
+      </div>
+    </div>
+  </div>
+    <script src="app.js"></script>  
+</body>
+</html>
